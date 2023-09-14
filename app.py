@@ -163,7 +163,7 @@ def load_user(user_id):
 # Docomention
 @app.route('/')
 def index():
-    return 'documentation.html'
+    return render_template('documentation.html')
 
 # USER MANAGEMENT ENDPOINTS
 
