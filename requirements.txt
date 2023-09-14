@@ -6,7 +6,6 @@ waitress
 datetime
 flask_jwt_extended
 uuid
-os
 PyPDF2
 flask_bcrypt
 flask_login
