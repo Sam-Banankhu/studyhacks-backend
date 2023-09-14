@@ -59,7 +59,6 @@ def get_files():
     
     return jsonify(files_list), 200
 
-
 @app.route('/pdfs/download/<file_id>', methods=['GET'])
 def download_file(file_id):
     document = documents.find_one({"_id": ObjectId(file_id)})
