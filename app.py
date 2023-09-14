@@ -489,5 +489,5 @@ def extract_text_from_pdf(pdf_file_path):
         
     except Exception as e:
         return text
-# if __name__ == "__main__":
-#    serve(app, host="0.0.0.0", port=8080)
+if __name__ == "__main__":
+    serve(app, host="0.0.0.0", port=8080)
